@@ -12,7 +12,7 @@ app.create(preloaderFull);
 var header = app.newComponent('c-header');
 var main = app.newComponent('c-main').setColor(app.color.blue[5]).setColorText(app.colorText.bwt[1]).setTextAling(app.textAling.c);
 var container = app.newComponent('c-container');
-var h = app.newComponent('c-h').setText("Terminos y condiciones del gateway");
+var h = app.newComponent('c-h').setText("Términos y condiciones Consent Gateway");
 var p = app.newComponent('c-p').setText(
 	"Bla\
 	Bla\
