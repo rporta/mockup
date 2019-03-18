@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +24,7 @@
 		let hash = '<?php echo($_SERVER['QUERY_STRING']);?>';
 		//request CG API
 
-		var CGAPI = null;
+		let CGAPI = null;
 
 		//parameters CG API paremters
 
@@ -50,13 +49,13 @@
 
 		//Callback API
 		
-		var valMSISDN = "x";
-		var valResult = "x";
-		var valReason = "x";
-		var valproductId = "x";
-		var valtransID = "x";
-		var valTPCGID = "x";
-		var valSongname = "x";
+		let valMSISDN = "x";
+		let valResult = "x";
+		let valReason = "x";
+		let valproductId = "x";
+		let valtransID = "x";
+		let valTPCGID = "x";
+		let valSongname = "x";
 
 	</script>
 	<script type="text/javascript" src="js/main.js"></script>

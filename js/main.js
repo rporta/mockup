@@ -102,7 +102,9 @@ var resolveClick = (e) => {
 
 		// methods app : generateAlphaId | generateAlphanumericId | generateNumericId | generateRandArray
 
-		valMSISDN = app.generateNumericId(10);
+		//MSIDN con prefijo
+		// valMSISDN = '971123456789';
+		valMSISDN = '123456789';
 		valResult = 'SUCCESS';
 		valReason = app.generateRandArray(['Success_accepted_by_user', 'Success_denied_by_user']);
 		valproductId = app.generateAlphaId(30);
@@ -191,7 +193,9 @@ var resolveClick = (e) => {
 
 		// methods app : generateAlphaId | generateAlphanumericId | generateNumericId | generateRandArray
 
-		valMSISDN = app.generateNumericId(10);
+		//MSIDN con prefijo
+		// valMSISDN = '971123456789';
+		valMSISDN = '123456789';
 		valResult = app.generateRandArray(['FAIL', 'REJECT']);
 		valReason = app.generateRandArray(['Consent_Request_Timeout', 'No_Call_Request_Received', 'user_given_incorrect_input']);
 		valproductId = app.generateNumericId(30);
